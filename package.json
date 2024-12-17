@@ -9,19 +9,37 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@langchain/community": "^0.3.19",
+    "@langchain/core": "^0.3.24",
+    "@langchain/langgraph": "^0.2.34",
+    "@langchain/ollama": "^0.1.4",
+    "@mlc-ai/web-llm": "^0.2.77",
+    "@shadcn/ui": "^0.0.4",
+    "@xenova/transformers": "^2.17.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "langchain": "^0.3.7",
+    "lucide-react": "^0.468.0",
+    "next": "15.1.0",
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^4.9.155",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.0"
+    "react-toastify": "^11.0.0",
+    "tailwind-merge": "^2.5.5",
+    "voy-search": "^0.6.2"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20.17.10",
+    "@types/pdfjs-dist": "^2.10.377",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.4.20",
     "eslint": "^9",
     "eslint-config-next": "15.1.0",
-    "@eslint/eslintrc": "^3"
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "typescript": "^5"
   }
 }
